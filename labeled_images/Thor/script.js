@@ -37,7 +37,7 @@ async function start() {
 }
 
 function loadLabeledImages() {
-    const labels = ['Capitan America', 'Chino', 'Thor', 'Aylin', 'Ariel Vola']
+    const labels = ['Capitan America', 'Chino', 'Thor', 'Aylin', 'Ariel Vola', 'Joao Paura']
   return Promise.all(
     labels.map(async label => {
       const descriptions = []
